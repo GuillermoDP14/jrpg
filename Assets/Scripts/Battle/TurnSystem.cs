@@ -42,12 +42,12 @@ public class TurnSystem : MonoBehaviour {
 		GameObject[] remainingEnemyUnits = GameObject.FindGameObjectsWithTag ("EnemyUnit");
 		if (remainingEnemyUnits.Length == 0) {
 			this.enemyEncounter.GetComponent<CollectReward> ().collectReward ();
-			SceneManager.LoadScene ("Initial_menu");
+			SceneManager.LoadScene ("Menu");
 		}
 
 		GameObject[] remainingPlayerUnits = GameObject.FindGameObjectsWithTag ("PlayerUnit");
 		if (remainingPlayerUnits.Length == 0) {
-			SceneManager.LoadScene("Initial_menu");
+			SceneManager.LoadScene("Menu");
 		}
 
 		UnitStats currentUnitStats = unitsStats [0];

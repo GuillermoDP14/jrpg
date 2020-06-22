@@ -9,13 +9,13 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Initial_menu.unity
+    path: Assets/Scenes/Menu.unity
     guid: 8d1876b80f8ad1a4e9d99ba34f0a4266
   - enabled: 1
     path: Assets/Scenes/Initial_town_houses.unity
     guid: 52302d3c4c290cd4cb2a2b1bcdaefc5c
   - enabled: 1
-    path: Assets/Scenes/Initial_town.unity
+    path: Assets/Scenes/Macael.unity
     guid: dd26ac23a66cdf4418b07e3fd75c8d4d
   - enabled: 1
     path: Assets/Scenes/Quarry_cave.unity
