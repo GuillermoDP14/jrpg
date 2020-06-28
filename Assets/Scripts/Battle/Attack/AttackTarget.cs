@@ -12,7 +12,7 @@ public class AttackTarget : MonoBehaviour {
 	private bool magicAttack;
 
 	[SerializeField]
-	private float manaCost;
+	private int manaCost;
 
 	[SerializeField]
 	private float minAttackMultiplier;
@@ -27,20 +27,22 @@ public class AttackTarget : MonoBehaviour {
 	private float maxDefenseMultiplier;
 	
 	public void hit(GameObject target) {
-		UnitStats ownerStats = this.owner.GetComponent<UnitStats> ();
-		UnitStats targetStats = target.GetComponent<UnitStats> ();
-		if (ownerStats.mana >= this.manaCost) {
-			float attackMultiplier = (Random.value * (this.maxAttackMultiplier - this.minAttackMultiplier)) + this.minAttackMultiplier;
-			float damage = (this.magicAttack) ? attackMultiplier * ownerStats.magic : attackMultiplier * ownerStats.attack;
+		CharacterStats ownerStats = this.owner.GetComponent<CharacterStats> ();
+		CharacterStats targetStats = target.GetComponent<CharacterStats> ();
+		if (ownerStats.CurrentMana >= this.manaCost) {
+			float attackMultiplier = (Random.Range(1,6) * (this.maxAttackMultiplier - this.minAttackMultiplier)) + this.minAttackMultiplier;
+			float damage = (this.magicAttack) ? attackMultiplier * ownerStats.Magic : attackMultiplier * ownerStats.Damage;
 
-			float defenseMultiplier = (Random.value * (this.maxDefenseMultiplier - this.minDefenseMultiplier)) + this.minDefenseMultiplier;
-			damage = Mathf.Max(0, damage - (defenseMultiplier * targetStats.defense));
+			float defenseMultiplier = (Random.Range(1,6) * (this.maxDefenseMultiplier - this.minDefenseMultiplier)) + this.minDefenseMultiplier;
+			damage = Mathf.Max(0, damage - (defenseMultiplier * targetStats.Armor));
 
 			this.owner.GetComponent<Animator> ().Play (this.attackAnimation);
 
-			targetStats.receiveDamage (damage);
+			targetStats.receiveDamage ((int) damage);
 
-			ownerStats.mana -= this.manaCost;
+			ownerStats.CurrentMana -= (int) this.manaCost;
+
+			
 		}
 	}
 }

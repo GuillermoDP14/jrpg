@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4006745687952210821}
   - component: {fileID: 4006745687952210820}
   m_Layer: 0
-  m_Name: 'PhysicalAttack '
+  m_Name: PhysicalAttack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47,7 +47,7 @@ MonoBehaviour:
   attackAnimation: PhysicalAttack
   magicAttack: 0
   manaCost: 0
-  minAttackMultiplier: 0.3
-  maxAttackMultiplier: 1
+  minAttackMultiplier: 0.1
+  maxAttackMultiplier: 0.3
   minDefenseMultiplier: 0.2
-  maxDefenseMultiplier: 0.8
+  maxDefenseMultiplier: 0.4

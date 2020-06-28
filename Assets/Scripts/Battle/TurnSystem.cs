@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 public class TurnSystem : MonoBehaviour {
 
-	private List<UnitStats> unitsStats;
+	private List<CharacterStats> unitsStats;
 
 	private GameObject playerParty;
 
@@ -17,16 +17,16 @@ public class TurnSystem : MonoBehaviour {
 	void Start() {
 		this.playerParty = GameObject.Find ("PlayerParty");
 
-		unitsStats = new List<UnitStats> ();
+		unitsStats = new List<CharacterStats> ();
 		GameObject[] playerUnits = GameObject.FindGameObjectsWithTag("PlayerUnit");
 		foreach (GameObject playerUnit in playerUnits) {
-			UnitStats currentUnitStats = playerUnit.GetComponent<UnitStats> ();
+			PlayerStats currentUnitStats = playerUnit.GetComponent<PlayerStats> ();
 			currentUnitStats.calculateNextActTurn (0);
 			unitsStats.Add (currentUnitStats);
 		}
 		GameObject[] enemyUnits = GameObject.FindGameObjectsWithTag("EnemyUnit");
 		foreach (GameObject enemyUnit in enemyUnits) {
-			UnitStats currentUnitStats = enemyUnit.GetComponent<UnitStats> ();
+			CharacterStats currentUnitStats = enemyUnit.GetComponent<CharacterStats> ();
 			currentUnitStats.calculateNextActTurn (0);
 			unitsStats.Add (currentUnitStats);
 		}
@@ -50,7 +50,7 @@ public class TurnSystem : MonoBehaviour {
 			SceneManager.LoadScene("Menu");
 		}
 
-		UnitStats currentUnitStats = unitsStats [0];
+		CharacterStats currentUnitStats = unitsStats [0];
 		unitsStats.Remove (currentUnitStats);
 
 		if (!currentUnitStats.isDead ()) {

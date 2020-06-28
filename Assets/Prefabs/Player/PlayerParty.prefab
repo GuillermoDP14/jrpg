@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3173265719763806913}
   - component: {fileID: 3173265719763806914}
-  - component: {fileID: 3173265719763806915}
   - component: {fileID: 3173265719763806972}
   - component: {fileID: 3173265719763806973}
+  - component: {fileID: 1016321011259841318}
   m_Layer: 0
   m_Name: PlayerUnit
   m_TagString: PlayerUnit
@@ -90,29 +90,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3173265719763806915
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3173265719763806912}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9beb2b009d2ecc0468cfabb0960c504f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 3173265719763806972}
-  damageTextPrefab: {fileID: 7324647590304522615, guid: 8c79675b1a9626947841cbb5d85570b3,
-    type: 3}
-  damageTextPosition: {x: 0, y: 0}
-  health: 100
-  mana: 0
-  attack: 10
-  magic: 10
-  defense: 10
-  speed: 10
-  nextActTurn: 0
 --- !u!95 &3173265719763806972
 Animator:
   serializedVersion: 3
@@ -149,6 +126,42 @@ MonoBehaviour:
   magicalAttack: {fileID: 5748025845169441192, guid: c6de6a822f2efd74abee87404e967025,
     type: 3}
   faceSprite: {fileID: 21300000, guid: 35e7456465207ff439611879aa000a94, type: 3}
+--- !u!114 &1016321011259841318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3173265719763806912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dd1c8b1472495a4682958cc76c0e08e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: Michael
+  characterLevel: 1
+  strength:
+    BaseValue: 3
+  magic:
+    BaseValue: 2
+  agility:
+    BaseValue: 3
+  maxHealth:
+    BaseValue: 100
+  maxMana:
+    BaseValue: 50
+  damage: 20
+  armor: 20
+  currentHealth: 100
+  currentMana: 50
+  animator: {fileID: 3173265719763806972}
+  damageTextPrefab: {fileID: 7324647590304522615, guid: 8c79675b1a9626947841cbb5d85570b3,
+    type: 3}
+  damageTextPosition: {x: -460, y: 75}
+  nextActTurn: 0
+  dead: 0
+  experience: 0
+  spendPoints: 3
 --- !u!1 &3173265720376591092
 GameObject:
   m_ObjectHideFlags: 0

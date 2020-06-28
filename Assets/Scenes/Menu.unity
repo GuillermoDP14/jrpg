@@ -399,7 +399,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
+  m_FirstSelected: {fileID: 857127022}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &109628507
@@ -452,7 +452,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 330, y: -200}
+  m_AnchoredPosition: {x: 310, y: -200}
   m_SizeDelta: {x: 150, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &343590969
@@ -468,7 +468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: -1
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -498,7 +498,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1930333588}
+      - m_Target: {fileID: 0}
         m_MethodName: Salir
         m_Mode: 1
         m_Arguments:
@@ -818,7 +818,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 275, y: 50}
+  m_AnchoredPosition: {x: 255, y: 50}
   m_SizeDelta: {x: 225, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &589693774
@@ -834,7 +834,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: -1
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -864,7 +864,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1469952245}
+      - m_Target: {fileID: 0}
         m_MethodName: LoadScriptables
         m_Mode: 1
         m_Arguments:
@@ -1036,7 +1036,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: -1
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -1066,7 +1066,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1930333588}
+      - m_Target: {fileID: 0}
         m_MethodName: Salir
         m_Mode: 1
         m_Arguments:
@@ -1165,9 +1165,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
+    m_Mode: -1
+    m_SelectOnUp: {fileID: 589693774}
+    m_SelectOnDown: {fileID: 343590969}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
@@ -1176,7 +1176,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -1249,26 +1249,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3173265719763806915, guid: 381dd69bd36c5fa409aaaaefb4491713,
-        type: 3}
-      propertyPath: mana
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 3173265719763806915, guid: 381dd69bd36c5fa409aaaaefb4491713,
-        type: 3}
-      propertyPath: attack
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 3173265719763806915, guid: 381dd69bd36c5fa409aaaaefb4491713,
-        type: 3}
-      propertyPath: damageTextPosition.x
-      value: -450
-      objectReference: {fileID: 0}
-    - target: {fileID: 3173265719763806915, guid: 381dd69bd36c5fa409aaaaefb4491713,
-        type: 3}
-      propertyPath: damageTextPosition.y
-      value: 75
-      objectReference: {fileID: 0}
     - target: {fileID: 3173265720376591092, guid: 381dd69bd36c5fa409aaaaefb4491713,
         type: 3}
       propertyPath: m_Name
@@ -1312,7 +1292,7 @@ PrefabInstance:
     - target: {fileID: 3173265720376591093, guid: 381dd69bd36c5fa409aaaaefb4491713,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3173265720376591093, guid: 381dd69bd36c5fa409aaaaefb4491713,
         type: 3}
@@ -1456,7 +1436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: -1
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -1486,7 +1466,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1930333588}
+      - m_Target: {fileID: 0}
         m_MethodName: Salir
         m_Mode: 1
         m_Arguments:
@@ -1689,24 +1669,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1266568480}
   m_CullTransparentMesh: 0
---- !u!1 &1268884872 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3173265720376591092, guid: 381dd69bd36c5fa409aaaaefb4491713,
-    type: 3}
-  m_PrefabInstance: {fileID: 870802983}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1268884873
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1268884872}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5bf6408fcf05624f99a8a5cb4985616, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1286222403
 GameObject:
   m_ObjectHideFlags: 0
@@ -2371,7 +2333,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 330, y: -100}
+  m_AnchoredPosition: {x: 310, y: -100}
   m_SizeDelta: {x: 150, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1464004013
@@ -2387,7 +2349,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: -1
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -2417,7 +2379,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1930333588}
+      - m_Target: {fileID: 0}
         m_MethodName: Salir
         m_Mode: 1
         m_Arguments:
@@ -2464,87 +2426,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1464004011}
   m_CullTransparentMesh: 0
---- !u!1001 &1469952244
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 7075750368218747786, guid: 4d42b08a53cd2394b9ac5052ed0ab3b4,
-        type: 3}
-      propertyPath: m_Name
-      value: GameSaveManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 7075750368218747828, guid: 4d42b08a53cd2394b9ac5052ed0ab3b4,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.32403052
-      objectReference: {fileID: 0}
-    - target: {fileID: 7075750368218747828, guid: 4d42b08a53cd2394b9ac5052ed0ab3b4,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.6924212
-      objectReference: {fileID: 0}
-    - target: {fileID: 7075750368218747828, guid: 4d42b08a53cd2394b9ac5052ed0ab3b4,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.11328125
-      objectReference: {fileID: 0}
-    - target: {fileID: 7075750368218747828, guid: 4d42b08a53cd2394b9ac5052ed0ab3b4,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7075750368218747828, guid: 4d42b08a53cd2394b9ac5052ed0ab3b4,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7075750368218747828, guid: 4d42b08a53cd2394b9ac5052ed0ab3b4,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7075750368218747828, guid: 4d42b08a53cd2394b9ac5052ed0ab3b4,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7075750368218747828, guid: 4d42b08a53cd2394b9ac5052ed0ab3b4,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7075750368218747828, guid: 4d42b08a53cd2394b9ac5052ed0ab3b4,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7075750368218747828, guid: 4d42b08a53cd2394b9ac5052ed0ab3b4,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7075750368218747828, guid: 4d42b08a53cd2394b9ac5052ed0ab3b4,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 4d42b08a53cd2394b9ac5052ed0ab3b4, type: 3}
---- !u!114 &1469952245 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7075750368218747829, guid: 4d42b08a53cd2394b9ac5052ed0ab3b4,
-    type: 3}
-  m_PrefabInstance: {fileID: 1469952244}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10c9e5afc90335e40b9f415a73e697dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1853565346
 GameObject:
   m_ObjectHideFlags: 0
@@ -2752,9 +2633,9 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1366, y: 1020}
-  m_ScreenMatchMode: 1
-  m_MatchWidthOrHeight: 0.25
+  m_ReferenceResolution: {x: 1280, y: 780}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96

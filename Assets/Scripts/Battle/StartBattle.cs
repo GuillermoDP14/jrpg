@@ -14,7 +14,7 @@ public class StartBattle : MonoBehaviour {
 	}
 
 	private void OnSceneLoaded(Scene scene, LoadSceneMode mode) {
-		if (scene.name == "Initial_menu") {
+		if (scene.name == "Menu") {
 			SceneManager.sceneLoaded -= OnSceneLoaded;
 			Destroy (this.gameObject);
 		} else {

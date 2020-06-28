@@ -9,12 +9,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5469260068899907146}
-  - component: {fileID: 5469260068899907144}
   - component: {fileID: 5469260068899907145}
   - component: {fileID: 1723927217}
   - component: {fileID: 7319223510851436122}
   - component: {fileID: 8578767144855043930}
   - component: {fileID: 656671099338411989}
+  - component: {fileID: 2098240080611747156}
   m_Layer: 0
   m_Name: RatUnit
   m_TagString: EnemyUnit
@@ -36,29 +36,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5469260068899907144
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5469260068899907147}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9beb2b009d2ecc0468cfabb0960c504f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 7319223510851436122}
-  damageTextPrefab: {fileID: 7324647590304522615, guid: 8c79675b1a9626947841cbb5d85570b3,
-    type: 3}
-  damageTextPosition: {x: -460, y: 95}
-  health: 50
-  mana: 10
-  attack: 15
-  magic: 5
-  defense: 5
-  speed: 10
-  nextActTurn: 0
 --- !u!212 &5469260068899907145
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -139,7 +116,7 @@ Animator:
   m_GameObject: {fileID: 5469260068899907147}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2c490e631d04edb4daf98f0349c3e7d4, type: 2}
+  m_Controller: {fileID: 9100000, guid: 421d01c4816037948bd673adc8fcf424, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -175,3 +152,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menuItem: {fileID: 0}
+--- !u!114 &2098240080611747156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5469260068899907147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f56a3498712eea4f9eab2b9d5c770b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: Rat
+  characterLevel: 1
+  strength:
+    BaseValue: 3
+  magic:
+    BaseValue: 0
+  agility:
+    BaseValue: 7
+  maxHealth:
+    BaseValue: 30
+  maxMana:
+    BaseValue: 0
+  damage: 10
+  armor: 5
+  currentHealth: 30
+  currentMana: 0
+  animator: {fileID: 7319223510851436122}
+  damageTextPrefab: {fileID: 7324647590304522615, guid: 8c79675b1a9626947841cbb5d85570b3,
+    type: 3}
+  damageTextPosition: {x: 400, y: 90}
+  nextActTurn: 0
+  dead: 0
