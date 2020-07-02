@@ -19,14 +19,14 @@ public class LoadInfo
         GameInfo.Armor = PlayerPrefs.GetInt("ARMOR");
         GameInfo.Damage   = PlayerPrefs.GetInt("DAMAGE");
 
-        GameInfo.MaxHealth = PlayerPrefs.GetInt("MAXHEALTH");
-        GameInfo.MaxMana   = PlayerPrefs.GetInt("MAXMANA");
+        GameInfo.MaxHealth = PlayerPrefs.GetFloat("MAXHEALTH");
+        GameInfo.MaxMana   = PlayerPrefs.GetFloat("MAXMANA");
         GameInfo.CurrentHealth = PlayerPrefs.GetInt("CURRENTHEALTH");
         GameInfo.CurrentMana   = PlayerPrefs.GetInt("CURRENTMANA");
         GameInfo.Experience = PlayerPrefs.GetInt("EXPERIENCE");
         GameInfo.SpendPoints = PlayerPrefs.GetInt("SPENDPOINTS");
 
-        Debug.Log(GameInfo.Strength);
+        Debug.Log(GameInfo.PlayerName);
         Debug.Log("Info Loaded"); 
     }
   

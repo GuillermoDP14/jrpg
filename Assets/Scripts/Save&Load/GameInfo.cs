@@ -6,7 +6,13 @@ public class GameInfo : MonoBehaviour
 {
     void Awake() 
     {
-        DontDestroyOnLoad(this.gameObject);
+        int length = FindObjectsOfType<GameInfo>().Length;
+        if(length != 1){
+            Destroy(this.gameObject);
+        }else{
+            DontDestroyOnLoad(this.gameObject);
+        }
+
     }
 
     public static string PlayerName { get; set;}
@@ -23,5 +29,7 @@ public class GameInfo : MonoBehaviour
     public static int CurrentMana { get; set;}
     public static int Experience { get; set;}
     public static int SpendPoints { get; set;}
+    public static float PlayerPositionX { get; set;}
+    public static float PlayerPositionY { get; set;}
 
 }

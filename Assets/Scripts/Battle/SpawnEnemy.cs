@@ -10,9 +10,14 @@ public class SpawnEnemy : MonoBehaviour {
 	private bool spawning = false;
 
 	void Start() {
-		DontDestroyOnLoad (this.gameObject);
 
-		SceneManager.sceneLoaded += OnSceneLoaded;
+		int length = FindObjectsOfType<SpawnEnemy>().Length;
+		if(length != 2){
+			Destroy(this.gameObject);
+		}else{
+			DontDestroyOnLoad (this.gameObject);		
+			SceneManager.sceneLoaded += OnSceneLoaded;
+		}
 	}
 
 	private void OnSceneLoaded(Scene scene, LoadSceneMode mode) {

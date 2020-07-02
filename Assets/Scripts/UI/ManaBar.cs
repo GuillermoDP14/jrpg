@@ -5,19 +5,17 @@ using UnityEngine.UI;
 public class ManaBar : MonoBehaviour
 {
 
-    public CharacterStats stats;
+    private CharacterStats stats;
     private Image barImage;
 
-
-
-    private void Awake()
+    private void Start()
     {
         stats = GameObject.Find("PlayerUnit").GetComponent<PlayerStats>();
         barImage = transform.Find("Bar").GetComponent<Image>();       
     }
 
     private void Update() {
-        stats = GameObject.Find("PlayerUnit").GetComponent<PlayerStats>();
+
         barImage.fillAmount = stats.CurrentMana/stats.MaxMana;
     }
 

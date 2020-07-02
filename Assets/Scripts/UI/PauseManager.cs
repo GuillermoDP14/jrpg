@@ -17,6 +17,7 @@ public class PauseManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        playerParty = GameObject.Find("PlayerParty");
         isPaused = false;
         pausePanel.SetActive(false);
         inventoryPanel.SetActive(false);

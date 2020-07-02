@@ -10,7 +10,7 @@ public class StartBattle : MonoBehaviour {
 
 		SceneManager.sceneLoaded += OnSceneLoaded;
 
-		this.gameObject.SetActive (false);
+		//this.gameObject.SetActive (false);
 	}
 
 	private void OnSceneLoaded(Scene scene, LoadSceneMode mode) {

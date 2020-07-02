@@ -37,10 +37,6 @@ public class PlayerUnitAction : MonoBehaviour {
 		GameObject playerUnitFace = GameObject.Find ("PlayerUnitFace") as GameObject;
 		playerUnitFace.GetComponent<Image> ().sprite = this.faceSprite;
 
-		GameObject playerUnitHealthBar = GameObject.Find ("PlayerUnitHealthBar") as GameObject;
-		playerUnitHealthBar.GetComponent<ShowUnitHealth> ().changeUnit (this.gameObject);
 
-		GameObject playerUnitManaBar = GameObject.Find ("PlayerUnitManaBar") as GameObject;
-		playerUnitManaBar.GetComponent<ShowUnitMana> ().changeUnit (this.gameObject);
 	}
 }

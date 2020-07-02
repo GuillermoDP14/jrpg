@@ -10,7 +10,7 @@ public class HealthBar : MonoBehaviour
 
     private Image barImage;
 
-    private void Awake()
+    private void Start()
     {
         stats = GameObject.Find("PlayerUnit").GetComponent<PlayerStats>();
         barImage = transform.Find("Bar").GetComponent<Image>();
@@ -18,6 +18,7 @@ public class HealthBar : MonoBehaviour
     }
 
     private void Update() {
+        
         barImage.fillAmount = stats.CurrentHealth/stats.MaxHealth;
     }
 

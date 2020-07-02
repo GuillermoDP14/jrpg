@@ -42,7 +42,7 @@ public class TurnSystem : MonoBehaviour {
 		GameObject[] remainingEnemyUnits = GameObject.FindGameObjectsWithTag ("EnemyUnit");
 		if (remainingEnemyUnits.Length == 0) {
 			this.enemyEncounter.GetComponent<CollectReward> ().collectReward ();
-			SceneManager.LoadScene ("Menu");
+			SceneManager.LoadScene ("Macael");
 		}
 
 		GameObject[] remainingPlayerUnits = GameObject.FindGameObjectsWithTag ("PlayerUnit");

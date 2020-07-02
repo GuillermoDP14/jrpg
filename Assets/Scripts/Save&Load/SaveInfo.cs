@@ -28,7 +28,10 @@ public class SaveInfo
     PlayerPrefs.SetInt("EXPERIENCE", GameInfo.Experience);   
     PlayerPrefs.SetInt("SPENDPOINTS", GameInfo.SpendPoints);   
 
-    Debug.Log(PlayerPrefs.GetFloat("STRENGTH"));
+    PlayerPrefs.SetFloat("PLAYERPOSITIONX", GameInfo.PlayerPositionX);   
+    PlayerPrefs.SetFloat("PLAYERPOSITIONY", GameInfo.PlayerPositionY);   
+    
+    Debug.Log(PlayerPrefs.GetFloat("PLAYERNAME"));
     Debug.Log("Info Saved"); 
 }
   

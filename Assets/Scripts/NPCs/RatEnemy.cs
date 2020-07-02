@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public enum EnemyState{
     idle,
@@ -32,7 +33,12 @@ public class RatEnemy : Enemy
     // Update is called once per frame
     void FixedUpdate()
     {
-        CheckDistance();
+        if(target !=null){
+            CheckDistance();
+        }else if (SceneManager.GetActiveScene().name == "Macael")
+        {  
+            target = GameObject.FindWithTag("Player").transform;
+        }
     }
 
     void CheckDistance(){

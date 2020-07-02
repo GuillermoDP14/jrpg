@@ -77,31 +77,31 @@ public class CharacterStats : MonoBehaviour, IComparable
 
     public float Strength
     {   
-        get{ return strength.BaseValue;}
+        get{ return strength.Value;}
         set{ strength.BaseValue = value;}
     }
 
     public float Magic
     {
-        get{ return magic.BaseValue;}
+        get{ return magic.Value;}
         set{ magic.BaseValue = value;}
     }
 
     public float Agility
     {
-        get{ return agility.BaseValue;}
+        get{ return agility.Value;}
         set{ agility.BaseValue = value;}
     }
 
     public float MaxHealth
     {
-        get{ return maxHealth.BaseValue;}
+        get{ return maxHealth.Value;}
         set{ maxHealth.BaseValue = value;}
     }
 
     public float MaxMana
     {
-        get{ return maxMana.BaseValue;}
+        get{ return maxMana.Value;}
         set{ maxMana.BaseValue = value;}
     }
 
