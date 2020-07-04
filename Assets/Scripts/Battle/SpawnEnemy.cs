@@ -12,7 +12,7 @@ public class SpawnEnemy : MonoBehaviour {
 	void Start() {
 
 		int length = FindObjectsOfType<SpawnEnemy>().Length;
-		if(length != 2){
+		if(length != 1){
 			Destroy(this.gameObject);
 		}else{
 			DontDestroyOnLoad (this.gameObject);		

@@ -28,7 +28,7 @@ public void ShowTooltip(Item item)
     gameObject.SetActive(true);
 
     ItemNameText.text = item.itemName;
-    ItemTypeText.text = item.itemtType.ToString();
+    ItemTypeText.text = item.GetItemType().ToString();
     ItemDescriptionText.text = item.itemDescription;
 
     sb.Length = 0;

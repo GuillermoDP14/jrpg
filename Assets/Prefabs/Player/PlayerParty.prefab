@@ -157,11 +157,15 @@ MonoBehaviour:
   animator: {fileID: 3173265719763806972}
   damageTextPrefab: {fileID: 7324647590304522615, guid: 8c79675b1a9626947841cbb5d85570b3,
     type: 3}
-  damageTextPosition: {x: -460, y: 75}
+  damageTextPosition: {x: -475, y: 75}
   nextActTurn: 0
   dead: 0
   experience: 0
   spendPoints: 3
+  Inventory: {fileID: 0}
+  EquipmentPanel: {fileID: 0}
+  itemTooltip: {fileID: 0}
+  draggableItem: {fileID: 0}
 --- !u!1 &3173265720376591092
 GameObject:
   m_ObjectHideFlags: 0

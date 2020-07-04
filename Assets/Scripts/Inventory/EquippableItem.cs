@@ -3,19 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using Kryz.CharacterStats;
 
-    public enum EquipmentType
-	{
-		Head,
-		Chest,
-		Gloves,
-		Boots,
-		Weapon1,
-		Weapon2,
-		Accessory1,
-		Accessory2,
-	}
+public enum EquipmentType
+{
+	Head,
+	Chest,
+	Gloves,
+	Boots,
+	Weapon1,
+	Weapon2,
+	Accessory1,
+	Accessory2,
+}
 
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "Items/Equippable Item")]
 public class EquippableItem : Item
 {    
 
@@ -26,14 +26,12 @@ public class EquippableItem : Item
     public int ManaBonus;
     public int DamageBonus;
     public int ArmorBonus;
-    /*public float StrengthPercentBonus;
-	public float AgilityPercentBonus;
-	public float MagicPercentBonus;*/
     public float HealthPercentBonus;
     public float ManaPercentBonus;
 
     [Space]
     public EquipmentType EquipmentType;
+    
 
 
     public void Equip(PlayerStats c)
@@ -80,6 +78,21 @@ public class EquippableItem : Item
         c.damage = c.damage -this.DamageBonus;
         c.armor = c.armor - this.ArmorBonus;
 
+    }
+
+    public override string GetItemType()
+    {
+        return EquipmentType.ToString();
+    }
+
+    public override Item GetCopy()
+    {
+        return Instantiate(this);
+    }
+
+    public override void Destroy()
+    {
+        Destroy(this);
     }
     
     

@@ -92,24 +92,6 @@ public class CreatePlayerStats : MonoBehaviour
 
     void UpdateUI()
     {
-        newPlayer.CharacterLevel = GameInfo.PlayerLevel;
-        newPlayer.CharacterName = GameInfo.PlayerName;
-
-        newPlayer.Strength = GameInfo.Strength;
-        newPlayer.Magic = GameInfo.Magic;
-        newPlayer.Agility = GameInfo.Agility;
-
-        newPlayer.Experience = GameInfo.Experience;
-
-        newPlayer.MaxHealth = GameInfo.MaxHealth;
-        newPlayer.MaxMana = GameInfo.MaxMana;
-        
-        newPlayer.CurrentHealth = GameInfo.CurrentHealth;
-        newPlayer.CurrentMana = GameInfo.CurrentMana;
-
-        newPlayer.Damage = GameInfo.Damage;
-        newPlayer.Armor = GameInfo.Armor;      
-
         //nameText.text = newPlayer.CharacterName.ToString();
 
         strengthText.text = newPlayer.Strength.ToString();
@@ -204,6 +186,24 @@ public class CreatePlayerStats : MonoBehaviour
     public void LoadStuff()
     {
         LoadInfo.LoadAllInfo();   
+
+        newPlayer.CharacterLevel = GameInfo.PlayerLevel;
+        newPlayer.CharacterName = GameInfo.PlayerName;
+ 
+        newPlayer.Strength = GameInfo.Strength;
+        newPlayer.Magic = GameInfo.Magic;
+        newPlayer.Agility = GameInfo.Agility;
+
+        newPlayer.Experience = GameInfo.Experience;
+
+        newPlayer.MaxHealth = GameInfo.MaxHealth;
+        newPlayer.MaxMana = GameInfo.MaxMana;
+        
+        newPlayer.CurrentHealth = GameInfo.CurrentHealth;
+        newPlayer.CurrentMana = GameInfo.CurrentMana;
+
+        newPlayer.Damage = GameInfo.Damage;
+        newPlayer.Armor = GameInfo.Armor;     
 
         UpdateUI();
     }

@@ -11,18 +11,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 8d1876b80f8ad1a4e9d99ba34f0a4266
-  - enabled: 1
-    path: Assets/Scenes/Initial_town_houses.unity
-    guid: 52302d3c4c290cd4cb2a2b1bcdaefc5c
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Macael.unity
     guid: dd26ac23a66cdf4418b07e3fd75c8d4d
-  - enabled: 1
-    path: Assets/Scenes/Quarry_cave.unity
-    guid: 185027ca92f28504d9c9d9110f31f9ac
-  - enabled: 1
-    path: Assets/Scenes/CombatScene.unity
-    guid: ff3b72ee35d04d24ea8214dc2d7f207a
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Battle.unity
     guid: 1a61aa86a3fa0b44497f0fa9efd69eca
