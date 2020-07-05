@@ -26,20 +26,23 @@ public class AttackTarget : MonoBehaviour {
 
 				attackPower = ((ownerStats.Damage * ownerStats.Strength/2 + (ownerStats.Damage * ownerStats.Magic)) * Random.Range(1,4));
 				damage = (attackPower - (targetStats.Armor * 0.75f));
+				ownerStats.CurrentMana -= (int) this.manaCost;
 
 				}else {
 
 					attackPower = ((ownerStats.Damage * ownerStats.Strength) * Random.Range(1,4));
 					damage = (attackPower - targetStats.Armor);
-		}
+			}
 
 			this.owner.GetComponent<Animator> ().Play (this.attackAnimation);
-
 			targetStats.receiveDamage ((int) damage);
 
-			ownerStats.CurrentMana -= (int) this.manaCost;
-
-			
+		}else if (ownerStats.CurrentMana < this.manaCost) {
+			attackPower = ((ownerStats.Damage * ownerStats.Strength/2 + (ownerStats.Damage * ownerStats.Magic)));
+			damage = (attackPower/2 - (targetStats.Armor * 0.75f));
+			Debug.Log("NO MANA ERROR");
 		}
+
+
 	}
 }

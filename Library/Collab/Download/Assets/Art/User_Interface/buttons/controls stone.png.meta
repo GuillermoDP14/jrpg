@@ -1,0 +1,664 @@
+fileFormatVersion: 2
+guid: a540ae53bd84f684d8306a5a318f55bc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3164805669685771890
+    second: controls stone_0
+  - first:
+      213: 6546549174041371102
+    second: controls stone_1
+  - first:
+      213: 1423562079156032714
+    second: controls stone_2
+  - first:
+      213: -940375922190663999
+    second: controls stone_3
+  - first:
+      213: 2366314313509377895
+    second: controls stone_4
+  - first:
+      213: -7793767526874923010
+    second: controls stone_5
+  - first:
+      213: 6925625900452919480
+    second: controls stone_6
+  - first:
+      213: 6709227116840061874
+    second: controls stone_7
+  - first:
+      213: 6727360434024630070
+    second: controls stone_8
+  - first:
+      213: -4226094970662841439
+    second: controls stone_9
+  - first:
+      213: -5009237648617679738
+    second: controls stone_10
+  - first:
+      213: 4342946431276847924
+    second: controls stone_11
+  - first:
+      213: 2601724775754911089
+    second: controls stone_12
+  - first:
+      213: -3618897997024575797
+    second: controls stone_13
+  - first:
+      213: -3834365324447725550
+    second: controls stone_14
+  - first:
+      213: 5708991938079582902
+    second: controls stone_15
+  - first:
+      213: 7023866252577929808
+    second: controls stone_16
+  - first:
+      213: 6987124160473751098
+    second: controls stone_17
+  - first:
+      213: -5639440251043057724
+    second: controls stone_18
+  - first:
+      213: -4479898524193815601
+    second: controls stone_19
+  - first:
+      213: -7451701180607055426
+    second: controls stone_20
+  - first:
+      213: 1660707649476088661
+    second: controls stone_21
+  - first:
+      213: 7481864410991946968
+    second: controls stone_22
+  - first:
+      213: 5599603359697357954
+    second: controls stone_23
+  - first:
+      213: -5184450781855874283
+    second: controls stone_24
+  - first:
+      213: -1056784986345930330
+    second: controls stone_25
+  - first:
+      213: -1286255575856064923
+    second: controls stone_26
+  - first:
+      213: 1554392475139244703
+    second: controls stone_27
+  - first:
+      213: 2448830415242881273
+    second: controls stone_28
+  - first:
+      213: -7647557554612307628
+    second: controls stone_29
+  - first:
+      213: -797852278086271975
+    second: controls stone_30
+  - first:
+      213: -3606870844407464145
+    second: controls stone_31
+  - first:
+      213: 8697549946430084355
+    second: controls stone_32
+  - first:
+      213: 2213154640819461285
+    second: controls stone_33
+  - first:
+      213: -6739422947980116801
+    second: controls stone_34
+  - first:
+      213: 5810159224171642960
+    second: controls stone_35
+  - first:
+      213: -8876326409057430217
+    second: controls stone_36
+  - first:
+      213: 5117462412522177090
+    second: controls stone_37
+  - first:
+      213: 8117600768803061875
+    second: controls stone_38
+  - first:
+      213: 6106358375884200493
+    second: controls stone_39
+  - first:
+      213: 8488851502846057884
+    second: controls stone_40
+  - first:
+      213: -5164484214756957395
+    second: controls stone_41
+  - first:
+      213: -4850831802612033626
+    second: controls stone_42
+  - first:
+      213: -2215547616668506299
+    second: controls stone_43
+  - first:
+      213: -877978291836691747
+    second: controls stone_44
+  - first:
+      213: -1385682732357326432
+    second: controls stone_45
+  - first:
+      213: -5706509909558140631
+    second: controls stone_46
+  - first:
+      213: -953625741231917681
+    second: controls stone_47
+  - first:
+      213: -6484719308182297920
+    second: controls stone_48
+  - first:
+      213: 7918550215299702427
+    second: controls stone_49
+  - first:
+      213: -2047975833402140747
+    second: controls stone_50
+  - first:
+      213: -765556690589795265
+    second: controls stone_51
+  - first:
+      213: 5253005567830367582
+    second: controls stone_52
+  - first:
+      213: 9077217333584301185
+    second: controls stone_53
+  - first:
+      213: 2974562209418940509
+    second: controls stone_54
+  - first:
+      213: -2605645479372583578
+    second: controls stone_55
+  - first:
+      213: -8830961471545134474
+    second: controls stone_56
+  - first:
+      213: 6744012796882358387
+    second: controls stone_57
+  - first:
+      213: 5782151932730877162
+    second: controls stone_58
+  - first:
+      213: -693865858605118509
+    second: controls stone_59
+  - first:
+      213: -2272994408058402352
+    second: controls stone_60
+  - first:
+      213: -1997377120404534175
+    second: controls stone_61
+  - first:
+      213: -1662825661162799843
+    second: controls stone_62
+  - first:
+      213: 8356147757595399172
+    second: controls stone_63
+  - first:
+      213: -3506193753691242592
+    second: controls stone_64
+  - first:
+      213: -4120688377541864335
+    second: controls stone_65
+  - first:
+      213: -5668161825600015017
+    second: controls stone_66
+  - first:
+      213: 8131167214501077219
+    second: controls stone_67
+  - first:
+      213: 5324786961742498063
+    second: controls stone_68
+  - first:
+      213: -2781311763631574622
+    second: controls stone_69
+  - first:
+      213: -2267640907307539211
+    second: controls stone_70
+  - first:
+      213: -8437628462211528827
+    second: controls stone_71
+  - first:
+      213: 2560225372017228629
+    second: controls stone_72
+  - first:
+      213: 1306856279001694125
+    second: controls stone_73
+  - first:
+      213: -3637146754524279897
+    second: controls stone_74
+  - first:
+      213: 2944717068189528858
+    second: controls stone_75
+  - first:
+      213: 7011186960008105140
+    second: controls stone_76
+  - first:
+      213: 1826649400990921757
+    second: controls stone_77
+  - first:
+      213: 1986193690827794594
+    second: controls stone_78
+  - first:
+      213: -7665152961399650303
+    second: controls stone_79
+  - first:
+      213: -810592047949454908
+    second: controls stone_80
+  - first:
+      213: -2126444879929597942
+    second: controls stone_81
+  - first:
+      213: 8463138510836754015
+    second: controls stone_82
+  - first:
+      213: 7448705344567989561
+    second: controls stone_83
+  - first:
+      213: -8627222146015122932
+    second: controls stone_84
+  - first:
+      213: 1411993529285422647
+    second: controls stone_85
+  - first:
+      213: 546003484021079892
+    second: controls stone_86
+  - first:
+      213: -3351138346516073449
+    second: controls stone_87
+  - first:
+      213: -1825477304453890528
+    second: controls stone_88
+  - first:
+      213: 4970072453150594213
+    second: controls stone_89
+  - first:
+      213: 6549100378164229431
+    second: controls stone_90
+  - first:
+      213: 5466504523778720985
+    second: controls stone_91
+  - first:
+      213: 518996655002404481
+    second: controls stone_92
+  - first:
+      213: 4717072708581811402
+    second: controls stone_93
+  - first:
+      213: 5862755534316330425
+    second: controls stone_94
+  - first:
+      213: -4546818486293670039
+    second: controls stone_95
+  - first:
+      213: 1813520047495970187
+    second: controls stone_96
+  - first:
+      213: 899607888550516278
+    second: controls stone_97
+  - first:
+      213: 2413074243563769652
+    second: controls stone_98
+  - first:
+      213: -6405675554780779222
+    second: controls stone_99
+  - first:
+      213: -8664337853082096820
+    second: controls stone_100
+  - first:
+      213: -7850007437845891868
+    second: controls stone_101
+  - first:
+      213: -5879924282845463938
+    second: controls stone_102
+  - first:
+      213: -3037544517619927861
+    second: controls stone_103
+  - first:
+      213: 6951116502992716233
+    second: controls stone_104
+  - first:
+      213: 2455916017465633125
+    second: controls stone_105
+  - first:
+      213: -7554949620746039533
+    second: controls stone_106
+  - first:
+      213: 8321987896645245806
+    second: controls stone_107
+  - first:
+      213: 6604103096731573806
+    second: controls stone_108
+  - first:
+      213: -7043990500394603287
+    second: controls stone_109
+  - first:
+      213: 8327575066741202516
+    second: controls stone_110
+  - first:
+      213: -8952669981136275739
+    second: controls stone_111
+  - first:
+      213: 8784429305028550176
+    second: controls stone_112
+  - first:
+      213: 5150645107466360607
+    second: controls stone_113
+  - first:
+      213: 3113270503092897895
+    second: controls stone_114
+  - first:
+      213: 3568245596310583314
+    second: controls stone_115
+  - first:
+      213: -4761588829396254105
+    second: controls stone_116
+  - first:
+      213: -9135495662103100561
+    second: controls stone_117
+  - first:
+      213: -7296047338908951447
+    second: controls stone_118
+  - first:
+      213: 6973504766066952375
+    second: controls stone_119
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: controls stone_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 322
+        width: 95
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e33cc1df5abeb20800000000000000
+      internalID: 3164805669685771890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controls stone_1
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 327
+        width: 57
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1ec57e9c30ada50800000000000000
+      internalID: 6546549174041371102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controls stone_2
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 323
+        width: 66
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4dfcb2b2281c310800000000000000
+      internalID: 1423562079156032714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controls stone_3
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 329
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cebe72c41d13f2f0800000000000000
+      internalID: -940375922190663999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controls stone_4
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 329
+        width: 88
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76716a3b456d6d020800000000000000
+      internalID: 2366314313509377895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controls stone_5
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1
+        width: 130
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff35aa3ab9f6d390800000000000000
+      internalID: -7793767526874923010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controls stone_6
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 433
+        width: 55
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8bdbb1014cc1060800000000000000
+      internalID: 6925625900452919480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controls stone_7
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 433
+        width: 32
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb8ba80486fb1d50800000000000000
+      internalID: 6709227116840061874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controls stone_8
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 131
+        width: 103
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6374e02fba26c5d50800000000000000
+      internalID: 6727360434024630070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
