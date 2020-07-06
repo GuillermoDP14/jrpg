@@ -23,12 +23,13 @@ public class TurnSystem : MonoBehaviour {
 			PlayerStats currentUnitStats = playerUnit.GetComponent<PlayerStats> ();
 			currentUnitStats.calculateNextActTurn (0);
 			unitsStats.Add (currentUnitStats);
+			
 		}
 		GameObject[] enemyUnits = GameObject.FindGameObjectsWithTag("EnemyUnit");
 		foreach (GameObject enemyUnit in enemyUnits) {
 			CharacterStats currentUnitStats = enemyUnit.GetComponent<CharacterStats> ();
 			currentUnitStats.calculateNextActTurn (0);
-			unitsStats.Add (currentUnitStats);
+			unitsStats.Add (currentUnitStats);			
 		}
 		unitsStats.Sort ();
 

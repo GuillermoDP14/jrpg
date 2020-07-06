@@ -4,22 +4,32 @@ using System.Collections;
 
 public class StartBattle : MonoBehaviour {
 
+	public static StartBattle instance = null;
+
 	// Use this for initialization
 	void Start () {
-		DontDestroyOnLoad (this.gameObject);
+		
+		if(instance == null)
+		{
+			instance = this;
+		}
+		else if (instance != this)
+		{
+			Destroy(gameObject);
+		}
 
-		SceneManager.sceneLoaded += OnSceneLoaded;
-
-		//this.gameObject.SetActive (false);
+		DontDestroyOnLoad (gameObject);
+		SceneManager.sceneLoaded += OnSceneLoaded;	
+		this.gameObject.SetActive (true);
 	}
+
+
 
 	private void OnSceneLoaded(Scene scene, LoadSceneMode mode) {
 		if (scene.name == "Menu") {
 			SceneManager.sceneLoaded -= OnSceneLoaded;
 			Destroy (this.gameObject);
-		} else {
-			this.gameObject.SetActive(scene.name == "Battle");
-		}
+		} 
 	}
 
 }

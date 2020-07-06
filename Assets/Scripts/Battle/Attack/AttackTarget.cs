@@ -32,6 +32,9 @@ public class AttackTarget : MonoBehaviour {
 
 					attackPower = ((ownerStats.Damage * ownerStats.Strength) * Random.Range(1,4));
 					damage = (attackPower - targetStats.Armor);
+					if(damage < 0){
+						damage = Mathf.Abs(damage*0.2f);
+					}
 			}
 
 			this.owner.GetComponent<Animator> ().Play (this.attackAnimation);
@@ -39,7 +42,9 @@ public class AttackTarget : MonoBehaviour {
 
 		}else if (ownerStats.CurrentMana < this.manaCost) {
 			attackPower = ((ownerStats.Damage * ownerStats.Strength/2 + (ownerStats.Damage * ownerStats.Magic)));
-			damage = (attackPower/2 - (targetStats.Armor * 0.75f));
+			damage = (attackPower/2 - (targetStats.Armor));
+			this.owner.GetComponent<Animator> ().Play (this.attackAnimation);
+			targetStats.receiveDamage ((int) damage);
 			Debug.Log("NO MANA ERROR");
 		}
 

@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Buckler
   m_EditorClassIdentifier: 
   id: b918ad12955219b44855cfc7e0861285
-  itemName: "Rodela de mader\xE1"
+  itemName: Rodela de madera
   itemDescription: Rodela vieja hecha de madera
   Icon: {fileID: 21300000, guid: 744f150e2e32b8a4c96130e23443961c, type: 3}
-  MaximumStacks: 1
+  MaximumStacks: 6
   StrengthBonus: 0
   AgilityBonus: 0
   MagicBonus: 0

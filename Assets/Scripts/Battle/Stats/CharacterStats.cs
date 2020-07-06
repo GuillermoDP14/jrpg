@@ -52,6 +52,7 @@ public class CharacterStats : MonoBehaviour, IComparable
 
 	public void calculateNextActTurn(int currentTurn) {
 		this.nextActTurn = currentTurn + (int)Math.Ceiling(100.0f / this.Agility);
+        Debug.Log("CEILING" + this.nextActTurn);
 	}
 
 	public int CompareTo(object otherStats) {
